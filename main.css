@@ -120,3 +120,44 @@ nav a{
     font-family:fantasy;
     background-color:darkgray;
 }
+.para{
+    align-self: center;
+    text-align: center;
+}
+.para p{
+    font-family:cursive;
+    font-size: 30px;
+    background-color:cadetblue
+}
+.logoimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.about{
+    text-align: center;
+}
+.about h1{
+    font-family: cursive;
+    background-color: beige;
+    font-size: 50px;
+}
+.about p{
+    background-color: beige;
+}
+hr{
+    margin: 20px -16px;
+}
+.footer{
+    text-align: center;
+    
+}
+.footer h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family:monospace;
+}
+.footer p{
+    font-family: cursive;
+}
