@@ -115,3 +115,8 @@ nav a{
     padding: 30% 0;
     font-family:cursive;
 }
+.clock{
+    font-size: 30px;
+    font-family:fantasy;
+    background-color:darkgray;
+}
