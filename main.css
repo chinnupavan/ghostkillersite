@@ -137,26 +137,31 @@ nav a{
 }
 .about{
     text-align: center;
+    margin-top: 10px;
+    background-color:cornsilk;
 }
 .about h1{
     font-family: cursive;
-    background-color: beige;
     font-size: 50px;
+    opacity: 0.7;
 }
 .about p{
-    background-color: beige;
+    opacity: 0.8;
+    margin-top: 100px;
 }
 hr{
     margin: 20px -16px;
 }
 .footer{
     text-align: center;
+    opacity: 0.60;
     
 }
-.footer h1{
+.footer h1 {
     font-size: 30px;
     margin-bottom: 20px;
     font-family:monospace;
+    opacity: 0.;
 }
 .footer p{
     font-family: cursive;
