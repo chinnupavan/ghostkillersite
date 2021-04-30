@@ -138,12 +138,23 @@ nav a{
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 100px;
+    background-image: url(images/grass.jpg);
+     background-size: 100%;
+    background-size: cover;
+    position: relative;
+    width:100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    color: #dfe6e9;
+    
+}
+
+.overlay{
+    background: #000;
 }
 .content h1{
     font-size: 80px;
-    padding: 20% 0;
+    padding: 50% 0;
     font-family:cursive;
 }
 .clock{
