@@ -65,6 +65,20 @@ display: none;
         font-size: 32px;
         padding-left: 60px;
     }
+    label #btn,
+label #cancel{
+    color: white;
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    
+}
+#check{
+    display: none;
+}
 }
 nv ul{
     margin-right: 20px;
@@ -74,6 +88,10 @@ nav a{
     font-size: 17px;
 }
 @media(max-width:909px){
+    label #btn{
+        
+    display: block;
+    }
     nav #icon{
         display: block;
     }
@@ -85,7 +103,7 @@ nav a{
         top:80px;
         left:-100%;
         text-align: center;
-        transition: all .5s;    
+        transition: all .5s;
     }
     nav li{
         display: block;
@@ -100,10 +118,22 @@ nav a{
         color: #3498db;
     }
     nav ul.show{
-        left: 0;
+        left:0;
         
     }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    #check:checked ~ label #btn{
+        display: none;
+    }
+    #check:checked ~ label #cancel{
+        display: block;
+    }
+    
 }
+
+
 .content{
     display: flex;
     justify-content: center;
@@ -111,14 +141,14 @@ nav a{
     margin: 5% auto;
 }
 .content h1{
-    font-size: 100px;
-    padding: 30% 0;
+    font-size: 80px;
+    padding: 20% 0;
     font-family:cursive;
 }
 .clock{
-    font-size: 30px;
+    font-size: 20px;
     font-family:fantasy;
-    background-color:darkgray;
+    
 }
 .para{
     align-self: center;
