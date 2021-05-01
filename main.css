@@ -10,28 +10,41 @@ body{
     font-family: monospace;
 }
 nav{
-    height: 80px;
+    
     width:100%;
     background: #34495e;
+    padding: 0px 10px;
+    margin-top: 0px
 }
 
 label.Logo{
     font-size: 35px;
+    cursor: pointer;
     font-weight: bold;
     color: white;
     padding: 0px 100px;
-    line-height: 80px;
+    line-height: 70px;
 }
-
+nav label a{
+    font-size:40px;
+    
+    font-family:monospace;
+    margin-left: -20px;
+    
+}
+nav label a.active,nav label a:hover{
+    border: none;
+    
+}
 nav ul{
     float: right;
-    
     
 }
 nav li{
     display: inline-block;
     margin: 0px 50px;
     line-height: 80px;
+    
 }
 
 nav a{
@@ -41,6 +54,7 @@ nav a{
     border: 1px solid transparent;
     padding: 7px 10px;
     border-radius: 3px;
+    margin-bottom: 60px;
     
 }
 
@@ -53,14 +67,15 @@ a.active,a:hover{
 nav #icon{
     color: white;
     font-size: 30px;
-line-height: 80px;
-float: right;
-margin-right: 40px;
-cursor: pointer;
-display: none;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
 }
 
 @media(max-width : 2000px){
+    
     label.logo{
         font-size: 32px;
         padding-left: 60px;
@@ -80,7 +95,7 @@ display: none;
     display: none;
 }
 }
-nv ul{
+nav ul{
     margin-right: 20px;
     
 }
@@ -88,6 +103,15 @@ nav a{
     font-size: 17px;
 }
 @media(max-width:909px){
+    
+    label.Logo{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding: 0px 50px;
+    line-height: 80px;
+    }
+    
     label #btn{
         
     display: block;
@@ -95,6 +119,7 @@ nav a{
     nav #icon{
         display: block;
     }
+    
     nav ul{
         position: fixed;
         width: 100%;
@@ -114,18 +139,25 @@ nav a{
         font-size: 20px;
     }
     a.active,a:hover{
-        border: none;
-        color: #3498db;
+    border: 1px solid white;
+    transition: .5s;
+    color: #55E6C1;
+    
     }
     nav ul.show{
         left:0;
         
     }
+    
+
+    
     #check:checked ~ ul{
         left: 0;
+        position:absolute;
     }
     #check:checked ~ label #btn{
         display: none;
+        
     }
     #check:checked ~ label #cancel{
         display: block;
@@ -134,28 +166,19 @@ nav a{
 }
 
 
-.content{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-     background-size: 100%;
-    background-size: cover;
-    position: relative;
-    width:100%;
-    height: 700px;
-    background-repeat: no-repeat;
-    color: grey;
-    
-}
+
 
 .content h1{
     font-size: 80px;
     padding: 50% 0;
+    text-align: center;
     font-family:cursive;
 }
 .clock{
     font-size: 20px;
     font-family:cursive;
+    text-align: center;
+    margin-bottom: 20px;
     
 }
 .para{
@@ -165,20 +188,21 @@ nav a{
 .para p{
     font-family:cursive;
     font-size: 30px;
-    background-color:#dfe4ea;
-    height: 500px;
+    background-color:#7bed9f;
+    height: 700px;
 }
 .logoimg{
     display: block;
     margin-top: 120px;
     margin-left: auto;
     margin-right: auto;
-    width: 20%;
+    
+    width: 30%;
+    margin-bottom: 200px;
 }
 .about{
     text-align: center;
-    background-color:#7bed9f;
-    height: 500px
+    background-color:cornsilk;
 }
 .about h1{
     font-family: cursive;
@@ -190,7 +214,13 @@ nav a{
     margin-top: 100px;
 }
 hr{
-    margin: 20px;
+    margin: 10px;
+}
+.media li{
+    display: inline-block;
+    margin: 0px 20px;
+    line-height: 40px;
+    opacity: 0.6;
 }
 .footer{
     text-align: center;
@@ -199,9 +229,9 @@ hr{
 }
 .footer h1 {
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     font-family:monospace;
-    opacity: 0.;
+    opacity: 0.6;
 }
 .footer p{
     font-family: cursive;
