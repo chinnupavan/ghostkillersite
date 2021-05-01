@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: monospace;
+}
+nav{
+    
+    width:100%;
+    background: #34495e;
+    padding: 0px 0px;
+    position: absolute;
+}
+
+label.Logo{
+    font-size: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    padding: 0px 100px;
+    line-height: 70px;
+}
+nav label a{
+    font-size:40px;
+    
+    font-family:monospace;
+    margin-left: -20px;
+    
+}
+nav label a.active,nav label a:hover{
+    border: none;
+    
+}
+nav ul{
+    float: right;
+    
+}
+nav li{
+    display: inline-block;
+    margin: 0px 50px;
+    line-height: 80px;
+    
+}
+
+nav a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+    margin-bottom: 60px;
+    
+}
+
+a.active,a:hover{
+    border: 1px solid white;
+    transition: .5s;
+    
+}
+
+nav #icon{
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+@media(max-width : 2000px){
+    
+    .profile{
+    display: inline-block;
+}
+.profile img{
+    width: 50%;
+    margin-top: 200px;
+}
+
+.aboutext{
+    
+    margin-top: -300px;
+    text-align: center;
+    margin-left: 200px;
+    font-size: 15px;
+}
+.aboutext h1{
+    font-family: cursive;
+}
+
+.aboutext pre{
+    font-family: cursive;
+    text-align: left;
+    margin-left: 120px
+}
+.aboutext p{
+    font-family: cursive;
+    margin-top: 20px;
+    
+    text-align:start;
+        margin-left: 160px;
+    font-style: italic
+}
+.contact h1{
+    margin-top: -400px;
+    margin-left: 800px;
+}
+    
+    
+    
+    
+    label.logo{
+        font-size: 32px;
+        padding-left: 60px;
+    }
+    label #btn,
+    label #cancel{
+    color: white;
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+
+    
+    }
+#check{
+    display: none;
+}
+}
+nav ul{
+    margin-right: 20px;
+    
+}
+nav a{
+    font-size: 17px;
+}
+
+.profile{
+    width: 50%;
+    padding: 0px 0px;
+}
+
+@media(max-width:909px){
+    
+    label.Logo{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding: 0px 50px;
+    line-height: 80px;
+    }
+    
+    label #btn{
+        
+    display: block;
+    }
+    nav #icon{
+        display: block;
+    }
+    
+    nav ul{
+        position: fixed;
+        width: 100%;
+        height:100vh;
+        background: #2f3640;
+        top:80px;
+        left:-100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav a{
+        font-size: 20px;
+    }
+    a.active,a:hover{
+    border: 1px solid white;
+    transition: .5s;
+    color: #55E6C1;
+    
+    }
+    nav ul.show{
+        left:0;
+        
+    }
+    
+
+    
+    #check:checked ~ ul{
+        left: 0;
+        position:absolute;
+    }
+    #check:checked ~ label #btn{
+        display: none;
+        
+    }
+    #check:checked ~ label #cancel{
+        display: block;
+    }
+    .profile img{
+        width: 80%;
+        margin-top: 200px;
+        margin-bottom:-200px;
+        margin-left: 250px;
+    
+    }
+    .aboutext{
+    text-align: center;
+    font-size: 15px;
+        margin: 0 10px;
+}
+    .aboutext p{
+        margin-left: 10px;
+        text-align: start
+    }
+    .aboutext pre{
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .aboutext h1{
+        margin: 5px 10px
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.media li{
+    display: inline-block;
+    margin: 0px 20px;
+    line-height: 40px;
+    opacity: 0.6;
+}
+.footer hr{
+    margin: 10px;
+}
+.footer{
+    text-align: center;
+    opacity: 0.60;
+    margin-top: 500px;
+    
+}
+.footer h1 {
+    font-size: 30px;
+    margin-bottom: 0px;
+    font-family:monospace;
+    opacity: 0.6;
+}
+.footer p{
+    font-family: cursive;
+}
