@@ -72,14 +72,13 @@ nav #icon{
     display: none;
 }
 
-@media(max-width : 2000px){
+@media(max-width : 4000px){
     
     
     .feedback-input {
-  color:white;
+  color:grey;
   font-family: Helvetica, Arial, sans-serif;
-  font-weight:
-    500;
+  font-weight:500;
   font-size: 15px;
   border-radius: 8px;
   line-height: 22px;
@@ -92,13 +91,13 @@ nav #icon{
   width:90%;
   box-sizing: border-box;
   outline:0;
-        margin-left: 15px;
+    margin-left: 15px;
 }
 
-.feedback-input:focus { border:2px solid #CC4949; }
+.feedback-input:focus { border:2px solid #CC499; }
 
 textarea {
-  height: 150px;
+  height: 160px;
   line-height: 150%;
   resize:vertical;
 }
@@ -144,15 +143,16 @@ textarea {
     margin-left: 120px
 }
 .aboutext p{
-    font-family: cursive;
+    font-family: 'Dancing Script', cursive;
     margin-top: 20px;
+    font-size: 25px;
     
     text-align:start;
         margin-left: 160px;
     font-style: italic
 }
 .contact h1{
-    margin-top: -400px;
+    margin-top: -450px;
 }
     
    
@@ -275,10 +275,16 @@ nav a{
     text-align: center;
     font-size: 15px;
         margin: 0 10px;
-}
+    }
+    .aboutext h1{
+    text-align: left;
+    font-size: 20px;
+        margin: 0 10px;
+    }
     .aboutext p{
         margin-left: 10px;
-        text-align: start
+        text-align: start;
+        font-size: 20px;
     }
     .aboutext pre{
         margin: auto;
@@ -290,6 +296,77 @@ nav a{
     .formdiv{
         margin-left: 50px;
         
+    }
+    
+    .contact h1{
+    margin-top: 10px;
+        margin-left: 160px;
+        margin-bottom: 10px;
+    }
+        
+.feedback-input {
+  color:grey;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 15px;
+  border-radius: 8px;
+  line-height: 20px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+        
+  width:90%;
+  box-sizing: border-box;
+  outline:0;
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+.feedback-input:focus { border:2px solid #CC499; }
+
+textarea {
+  height: 160px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 30%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:20px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+    margin-left: -10px;
+}
+[type="submit"]:hover { background:#CC4949; }
+    .profile{
+    display: inline-block;
+}
+
+    
+   
+
+
+.contact {
+    
+    background-color: #dcdde1;
+    margin-left: 20px;
+    width: 400px;
+    
+    height: 500px;
+    border-radius: 20px;
+    margin-top: px;
+
     }
     
 }
