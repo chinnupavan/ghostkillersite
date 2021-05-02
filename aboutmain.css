@@ -204,7 +204,7 @@ nav a{
     
 }
 
-@media(max-width:909px){
+@media(max-width:800px){
     
     label.Logo{
     font-size: 25px;

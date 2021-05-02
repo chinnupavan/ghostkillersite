@@ -75,7 +75,12 @@ nav #icon{
 }
 
 @media(max-width : 2000px){
-    
+    .content h1{
+    font-size: 80px;
+    text-align: center;
+    font-family:cursive;
+    padding: 200px 50px;
+}
     label.logo{
         font-size: 32px;
         padding-left: 60px;
@@ -103,7 +108,12 @@ nav a{
     font-size: 17px;
 }
 @media(max-width:909px){
-    
+    .content h1{
+    font-size: 60px;
+    text-align: center;
+    font-family:cursive;
+    padding: 150px 50px;
+}
     label.Logo{
     font-size: 25px;
     font-weight: bold;
@@ -168,12 +178,7 @@ nav a{
 
 
 
-.content h1{
-    font-size: 80px;
-    text-align: center;
-    font-family:cursive;
-    padding: 200px 50px;
-}
+
 .clock{
     font-size: 20px;
     font-family:cursive;
