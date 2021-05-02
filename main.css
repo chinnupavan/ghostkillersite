@@ -73,6 +73,7 @@ nav #icon{
     cursor: pointer;
     display: none;
 }
+/*__________________DESKTOP_________________________*/
 
 @media(max-width : 2000px){
     .content h1{
@@ -107,6 +108,9 @@ nav ul{
 nav a{
     font-size: 17px;
 }
+
+
+/*__________________MOBILE_________________________*/
 @media(max-width:909px){
     .content h1{
     font-size: 60px;

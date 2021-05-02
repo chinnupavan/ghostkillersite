@@ -294,13 +294,13 @@ nav a{
         margin: 5px 10px
     }
     .formdiv{
-        margin-left: 50px;
+        margin-left: 0px;
         
     }
     
     .contact h1{
     margin-top: 10px;
-        margin-left: 160px;
+        margin-left: 150px;
         margin-bottom: 10px;
     }
         
@@ -317,11 +317,11 @@ nav a{
   padding: 12px 15px;
   margin-bottom: 15px;
         
-  width:90%;
+  width:80%;
   box-sizing: border-box;
   outline:0;
     margin-left: 0px;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 
 .feedback-input:focus { border:2px solid #CC499; }
@@ -360,7 +360,7 @@ textarea {
 .contact {
     
     background-color: #dcdde1;
-    margin-left: 20px;
+    margin-left: 10px;
     width: 400px;
     
     height: 500px;
