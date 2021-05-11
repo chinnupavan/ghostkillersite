@@ -176,12 +176,12 @@ nav ul{
 nav a{
     font-size: 17px;
 }
-@media(max-width:850px){
+@media(max-width:909px){
     .cardcontainer{
         display: inline-block;
         justify-content: center;
-        margin: 0px;
-        
+        margin-left:0px;
+        margin-right: 0px;
     }
     label.Logo{
     font-size: 25px;
