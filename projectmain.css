@@ -74,7 +74,7 @@ nav #icon{
     display: none;
 }
 
-@media(max-width : 2000px){
+@media(max-width : 3000px){
     
     label.logo{
         font-size: 32px;
@@ -102,7 +102,7 @@ nav ul{
 nav a{
     font-size: 17px;
 }
-@media(max-width:909px){
+@media(max-width:1108px){
     
     label.Logo{
     font-size: 25px;
@@ -168,26 +168,30 @@ nav a{
 
 
 
+
+.footer{
+    text-align: center;
+    opacity: 0.60;
+    bottom: 0px;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    
+}
 .media li{
     display: inline-block;
     margin: 0px 20px;
     line-height: 40px;
     opacity: 0.6;
 }
-.footer hr{
-    margin: 10px;
-}
-.footer{
-    text-align: center;
-    opacity: 0.60;
-    margin-top: 800px;
-    
-}
+
+
 .footer h1 {
     font-size: 30px;
-    margin-bottom: 0px;
     font-family:monospace;
     opacity: 0.6;
+    align-content: center;
+    text-align: center;
 }
 .footer p{
     font-family: cursive;

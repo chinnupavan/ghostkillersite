@@ -75,7 +75,7 @@ nav #icon{
 }
 /*__________________DESKTOP_________________________*/
 
-@media(max-width : 2000px){
+@media(max-width : 3000px){
     .content h1{
     font-size: 80px;
     text-align: center;
@@ -111,7 +111,7 @@ nav a{
 
 
 /*__________________MOBILE_________________________*/
-@media(max-width:909px){
+@media(max-width:1108px){
     .content h1{
     font-size: 60px;
     text-align: center;
