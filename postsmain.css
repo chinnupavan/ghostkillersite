@@ -167,6 +167,34 @@ nav #icon{
     #check{
     display: none;
     }
+    
+    /*////////////////////FOOTER//////////////*/
+    .footer hr{
+    margin: 15px;
+   }
+   .media li{
+    display: inline-block;
+    margin: 0px 20px;
+    line-height: 40px;
+    opacity: 0.6;
+    font-size: 10px;
+   }
+   .footer{
+    text-align: center;
+    opacity: 0.60;
+    margin-top: 15px;
+    
+   }
+   .footer h1 {
+    font-size: 1.5vw;
+    font-family:monospace;
+    opacity: 0.6;
+
+    }
+    .footer p{
+    font-family: cursive;
+    }
+    /*////////////////////FOOTER//////////////*/
 }
 
 }
@@ -242,34 +270,12 @@ nav a{
     #check:checked ~ label #cancel{
         display: block;
     }
+    .media li{
+        font-size: 8px;
+    }
+    .footer h1{
+        font-size: 10px;
+    }
     
 }
 
-
-
-.footer{
-    text-align: center;
-    opacity: 0.60;
-    bottom: 0px;
-    left: 0;
-    width: 100%;
-    
-}
-.media li{
-    display: inline-block;
-    margin: 0px 20px;
-    line-height: 40px;
-    opacity: 0.6;
-}
-
-
-.footer h1 {
-    font-size: 30px;
-    font-family:monospace;
-    opacity: 0.6;
-    align-content: center;
-    text-align: center;
-}
-.footer p{
-    font-family: cursive;
-}

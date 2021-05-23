@@ -87,10 +87,25 @@ nav #icon{
     }
     .post h1{
         text-align: center;
+        font-size: 1.9vw;
+        margin-bottom: 10px;
+        opacity: 65%;
+    }
+    .post p{
+        font-size: 1.2vw;
+        line-height:1.5;
+        
     }
     .post p1{
         text-align: left;
+        font-size: 1.2vw;
+        line-height:1.5;
 
+    }
+    .post p3{
+        text-align: left;
+        font-size: 1.2vw;
+        line-height: 1.5;
     }
     .responsive{
         width: 100%;
@@ -118,33 +133,33 @@ nav #icon{
     }
     
     
-    /////////////////////////
+    /*////////////////////FOOTER//////////////*/
     .footer hr{
     margin: 15px;
-}
-.media li{
+   }
+   .media li{
     display: inline-block;
     margin: 0px 20px;
     line-height: 40px;
     opacity: 0.6;
     font-size: 10px;
-}
-.footer{
+   }
+   .footer{
     text-align: center;
     opacity: 0.60;
     margin-top: 15px;
     
-}
-.footer h1 {
+   }
+   .footer h1 {
     font-size: 1.5vw;
     font-family:monospace;
     opacity: 0.6;
 
- }
- .footer p{
+    }
+    .footer p{
     font-family: cursive;
- }
-    //////////////////
+    }
+    /*////////////////////FOOTER//////////////*/
 }
 
 nav ul{
@@ -154,6 +169,7 @@ nav ul{
 nav a{
     font-size: 17px;
 }
+/*//////////MOBILE//////////////*/
 @media(max-width:1108px){
     .cardcontainer{
         display: inline-block;
