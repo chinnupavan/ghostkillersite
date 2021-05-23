@@ -92,15 +92,9 @@ nav #icon{
         text-align: left;
 
     }
-    .javaimg{
-        background-image:url(images/javadownload.jpg);
-        background-size: 800px 400px;
-        height: 25rem;
-        width: 60rem;
-         background-repeat: no-repeat;
-            
-            background-position: center;
-        margin-top: 10px;
+    .responsive{
+        width: 100%;
+        height: auto;
     }
     /*////////////////////////////////////////*/
     
