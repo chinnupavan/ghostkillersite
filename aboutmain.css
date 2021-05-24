@@ -8,6 +8,8 @@
 
 body{
     font-family: monospace;
+    width: 100%;
+    height: 100vh;
 }
 nav{
     
@@ -81,10 +83,9 @@ nav a{
     font-size: 17px;
 }
 
-
-
-
-
+.gap{
+    margin-bottom: 50px;
+}
 
 /*...........DESKTOP.................*/
 @media(max-width : 3000px){
@@ -134,12 +135,39 @@ nav a{
     font-family: cursive;
     }
     /*////////////////////FOOTER//////////////*/
+    
+    .contact-form{
+    margin: auto;
+    margin-top:100px;
+    width: 40%;
+    text-align: center;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.5);
+    height: 60%;
+    line-height: 3;
+        padding: 10px 10px;
+        }
+    .contact-form h{
+    background: #efefef;
+    margin-top: 0;
+    padding: 10px;
+    }
+    .contact-form input{
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    }
+       .contact-form textarea{
+           width: 90%;
+           height: 150px;
+           resize: none;
+}
 }
 
 
 
 /*...........MOBILE.................*/
-@media(max-width:1108px){
+@media(max-width:1024px){
     
     label.Logo{
     font-size: 25px;
@@ -205,6 +233,34 @@ nav a{
     .footer h1{
         font-size: 10px;
     }
+    .contact-form{
+    margin: auto;
+    margin-top:100px;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.5);
+    height: 70%;
+    line-height: 3;
+        padding: 10px 10px;
+}
+.contact-form h{
+    background: #efefef;
+    margin-top: 0;
+    padding: 10px;
+}
+.contact-form input{
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 11px;
+}
+    .contact-form textarea{
+    width: 80%;
+    height:20vw;
+        resize: none;
+}
+
+
 }
 
 
