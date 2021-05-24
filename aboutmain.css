@@ -161,6 +161,25 @@ nav a{
            width: 90%;
            height: 150px;
            resize: none;
+    }
+    .btn{
+        width: 20%;
+        height: 40px;
+        background-color: #0be881; /* Green */
+    border: none;
+    color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+        border-radius: 20px;
+        font-size: 1.2vw;
+    }
+    .btn:hover {
+   background-color: #4CAF50;
+  color: white;
+        box-shadow: 0 0 4px 0 rgba(0,0,0,0.5);
 }
 }
 
@@ -259,6 +278,9 @@ nav a{
     height:20vw;
         resize: none;
 }
+    .btn{
+        font-size: 3vw;
+    }
 
 
 }
