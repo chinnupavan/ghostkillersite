@@ -5,8 +5,10 @@
     text-decoration: none;
     list-style: none;
 }
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
+body{
+    font-family: monospace;
+}
 nav{
     
     width:100%;
@@ -71,104 +73,21 @@ nav #icon{
     cursor: pointer;
     display: none;
 }
+nav ul{
+    margin-right: 20px;
+    
+}
+nav a{
+    font-size: 17px;
+}
 
+
+
+
+
+
+/*...........DESKTOP.................*/
 @media(max-width : 3000px){
-    
-    
-    .feedback-input {
-  color:grey;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight:500;
-  font-size: 15px;
-  border-radius: 8px;
-  line-height: 22px;
-  background-color: transparent;
-  border:2px solid #CC6666;
-  transition: all 0.3s;
-  padding: 12px 15px;
-  margin-bottom: 10px;
-        
-  width:90%;
-  box-sizing: border-box;
-  outline:0;
-    margin-left: 15px;
-}
-
-.feedback-input:focus { border:2px solid #CC499; }
-
-textarea {
-  height: 160px;
-  line-height: 150%;
-  resize:vertical;
-}
-
-[type="submit"] {
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  width: 20%;
-  background:#CC6666;
-  border-radius:5px;
-  border:0;
-  cursor:pointer;
-  color:white;
-  font-size:24px;
-  padding-top:10px;
-  padding-bottom:10px;
-  transition: all 0.3s;
-  margin-top:-4px;
-  font-weight:700;
-}
-[type="submit"]:hover { background:#CC4949; }
-    .profile{
-    display: inline-block;
-}
-.profile img{
-    width: 50%;
-    margin-top: 200px;
-}
-
-.aboutext{
-    
-    margin-top: -300px;
-    text-align: center;
-    margin-left: 200px;
-    font-size: 15px;
-}
-.aboutext h1{
-    font-family: cursive;
-}
-
-.aboutext pre{
-    font-family: cursive;
-    text-align: left;
-    margin-left: 120px
-}
-.aboutext p{
-    font-family: 'Dancing Script', cursive;
-    margin-top: 20px;
-    font-size: 25px;
-    
-    text-align:start;
-        margin-left: 160px;
-    font-style: italic
-}
-.contact h1{
-    margin-top: -450px;
-}
-    
-   
-
-
-.contact {
-    
-    background-color: #dcdde1;
-    margin-left: 600px;
-    width: 620px;
-    
-    height: 500px;
-    border-radius: 20px;
-
-    }
-    
     
     label.logo{
         font-size: 32px;
@@ -183,12 +102,11 @@ textarea {
     margin-right: 40px;
     cursor: pointer;
     display: none;
-
     
     }
-#check{
-    display: none;
-}
+    #check{
+        display: none;
+    }
     /*////////////////////FOOTER//////////////*/
     .footer hr{
     margin: 15px;
@@ -203,7 +121,7 @@ textarea {
    .footer{
     text-align: center;
     opacity: 0.60;
-    margin-top: 15px;
+    margin-top: 700px;
     
    }
    .footer h1 {
@@ -217,20 +135,10 @@ textarea {
     }
     /*////////////////////FOOTER//////////////*/
 }
-nav ul{
-    margin-right: 20px;
-    
-}
-nav a{
-    font-size: 17px;
-}
 
-.profile{
-    width: 50%;
-    padding: 0px 0px;
-    
-}
 
+
+/*...........MOBILE.................*/
 @media(max-width:1108px){
     
     label.Logo{
@@ -291,124 +199,13 @@ nav a{
     #check:checked ~ label #cancel{
         display: block;
     }
-    .profile img{
-        width: 80%;
-        margin-top: 200px;
-        margin-bottom:-200px;
-        margin-left: 250px;
-    
-    }
-    .aboutext{
-    text-align: center;
-    font-size: 15px;
-        margin: 0 10px;
-    }
-    .aboutext h1{
-    text-align: left;
-    font-size: 20px;
-        margin: 0 10px;
-    }
-    .aboutext p{
-        margin-left: 10px;
-        text-align: start;
-        font-size: 20px;
-    }
-    .aboutext pre{
-        margin: auto;
-        margin-bottom: 50px;
-    }
-    .aboutext h1{
-        margin: 5px 10px
-    }
-    .formdiv{
-        margin-left: 0px;
-        
-    }
-    
-    .contact h1{
-    margin-top: 10px;
-        margin-left: 150px;
-        margin-bottom: 10px;
-    }
-        
-.feedback-input {
-  color:grey;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight:500;
-  font-size: 15px;
-  border-radius: 8px;
-  line-height: 20px;
-  background-color: transparent;
-  border:2px solid #CC6666;
-  transition: all 0.3s;
-  padding: 12px 15px;
-  margin-bottom: 15px;
-        
-  width:80%;
-  box-sizing: border-box;
-  outline:0;
-    margin-left: 0px;
-    margin-right: 50px;
-}
-
-.feedback-input:focus { border:2px solid #CC499; }
-
-textarea {
-  height: 160px;
-  line-height: 150%;
-  resize:vertical;
-}
-
-[type="submit"] {
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  width: 30%;
-  background:#CC6666;
-  border-radius:5px;
-  border:0;
-  cursor:pointer;
-  color:white;
-  font-size:20px;
-  padding-top:10px;
-  padding-bottom:10px;
-  transition: all 0.3s;
-  margin-top:-4px;
-  font-weight:700;
-    margin-left: -10px;
-}
-[type="submit"]:hover { background:#CC4949; }
-    .profile{
-    display: inline-block;
-}
-
-    
-   
-
-
-.contact {
-    
-    background-color: #dcdde1;
-    margin-left: 0px;
-    width: 350px;
-    
-    height: 500px;
-    border-radius: 20px;
-    margin-top: px;
-
-    }
     .media li{
         font-size: 8px;
     }
     .footer h1{
         font-size: 10px;
     }
-    
 }
-
-
-
-
-
-
 
 
 

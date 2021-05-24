@@ -105,7 +105,7 @@ nav #icon{
     .post p3{
         text-align: left;
         font-size: 1.2vw;
-        line-height: 3;
+        line-height: 2.5;
     }
     .responsive{
         width: 100%;
@@ -113,12 +113,15 @@ nav #icon{
         box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.5)
     }
     .img2{
-        width: 60%;
+        width:80%;
         height: auto;
         box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.5);
-        margin-bottom: 20px;
-        margin-left: -150px;
-
+        margin-bottom: 10px;
+    }
+    .post p3{
+        line-height: 2;
+        text-align: left;
+        margin-left: 0px;
     }
     /*////////////////////////////////////////*/
     
