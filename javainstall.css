@@ -85,7 +85,7 @@ nav #icon{
         margin-top: 100px;
         padding: 10px;
     }
-    .heading h1{
+    .heading{
         text-align: center;
     }
     .post h1{
@@ -302,7 +302,7 @@ nav a{
     }
     .heading{
         text-align: center;
-        line-height: 3;
+        line-height: 0;
         font-size: 4vw;
     }
     .post p{
@@ -320,11 +320,6 @@ nav a{
         text-align: left;
         font-size:2.5vw;
         line-height:1.7;
-    }
-    
-    .heading h1{
-        text-align: center;
-        font-size: 3vw;
     }
     
     .img3{
