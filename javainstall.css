@@ -85,6 +85,9 @@ nav #icon{
         margin-top: 100px;
         padding: 10px;
     }
+    .heading h1{
+        text-align: center;
+    }
     .post h1{
         text-align: center;
         font-size: 1.9vw;
@@ -110,18 +113,50 @@ nav #icon{
     .responsive{
         width: 100%;
         height: auto;
-        box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.5)
+        box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.5)
     }
     .img2{
         width:80%;
         height: auto;
-        box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.5);
+        box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.5);
         margin-bottom: 10px;
     }
     .post p3{
+        line-height: 4;
+        text-align: left;
+        margin-left: 0px;
+    }
+    .img3{
+        width: 80%;
+        height: auto;
+        box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.5);
+        margin-bottom: 10px;
+        
+    }
+    .post p4{
+        line-height: 4;
+        text-align: left;
+        margin-left: 0px;
+        font-size: 1.3vw;
+    }
+    p5{
         line-height: 2;
         text-align: left;
         margin-left: 0px;
+        font-size: 1.3vw;
+    }
+    .post p6{
+        line-height: 4;
+        text-align: left;
+        margin-left: 0px;
+        font-size: 1.3vw;
+    }
+    .img6{
+        width: 50%;
+        height: auto;
+        box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.5);
+        margin-bottom: 10px;
+        
     }
     /*////////////////////////////////////////*/
     
@@ -271,25 +306,59 @@ nav a{
         font-size: 4vw;
     }
     .post p{
-        font-size:2.2vw;
-        line-height:1.5;
+        font-size:2.5vw;
+        line-height:1.7;
         
     }
     .post p1{
         text-align: left;
-        font-size: 2.2vw;
-        line-height:1.5;
+        font-size:2.5vw;
+        line-height:1.7;
 
     }
     .post p3{
         text-align: left;
-        font-size: 2.2vw;
-        line-height: 2;
+        font-size:2.5vw;
+        line-height:1.7;
     }
     
+    .heading h1{
+        text-align: center;
+        font-size: 3vw;
+    }
     
-    
-    
+    .img3{
+        width: 80%;
+        height: auto;
+        box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.5);
+        margin-bottom: 10px;
+        
+    }
+    .post p4{
+        line-height: 4;
+        text-align: left;
+        margin-left: 0px;
+        font-size: 3vw;
+    }
+    p5{
+        line-height: 2;
+        text-align: left;
+        margin-left: 0px;
+        font-size: 3vw;
+    }
+    .post p6{
+        line-height: 2;
+        text-align: left;
+        margin-left: 0px;
+        font-size: 3vw;
+    }
+    .img6{
+        width: 80%;
+        height: auto;
+        box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.5);
+        margin-bottom: 10px;
+        
+    }
     
     
     
