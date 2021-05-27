@@ -89,7 +89,17 @@ nav a{
 
 /*...........DESKTOP.................*/
 @media(max-width : 3000px){
-    
+    .contact-form hr{
+    margin-top:30px;
+}
+    .logopic{
+        width: 30%;
+        height: auto;
+    }
+    .pic{
+        display: inline-block;
+        text-align: center;
+    }
     label.logo{
         font-size: 32px;
         padding-left: 60px;
@@ -122,7 +132,7 @@ nav a{
    .footer{
     text-align: center;
     opacity: 0.60;
-    margin-top: 700px;
+    margin-top: 20px;
     
    }
    .footer h1 {
@@ -273,7 +283,7 @@ nav a{
     }
     .contact-form{
     margin: auto;
-    margin-top:100px;
+    margin-top:50px;
     width: 80%;
     text-align: center;
     box-shadow: 0 0 4px 0 rgba(0,0,0,0.5);
@@ -299,8 +309,13 @@ nav a{
     .btn{
         font-size: 3vw;
     }
-
-
+.logopic{
+        width: 60%;
+        height: auto;
+    }
+.contact-form hr{
+    margin-top:130px;
+}
 }
 
 
