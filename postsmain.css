@@ -218,9 +218,9 @@ nav a{
 }
 @media(max-width:1108px){
     .cardcontainer{
-        display: inline-block;
-        justify-content: center;
-        margin-left:0px;
+        display:inline-block;
+        
+        margin-left:2rem;
         margin-right: 0px;
     }
     label.Logo{
